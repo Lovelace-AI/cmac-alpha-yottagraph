@@ -1,0 +1,27 @@
+# Broadchurch project configuration
+# Auto-generated during tenant provisioning.
+
+gcp:
+  project: broadchurch
+  region: us-central1
+  staging_bucket: broadchurch-agent-staging
+
+tenant:
+  project_name: "cmac-alpha"
+  display_name: "cmac-alpha"
+  org_id: "org_tzhzM4Y1hJ8a04rc"
+  service_account: "tenant-tzhzm4y1hj8a04rc@broadchurch.iam.gserviceaccount.com"
+
+gateway:
+  url: "https://broadchurch-portal-194773164895.us-central1.run.app"
+  qs_api_key: "8714d92d91cd916cf227410aec7120a1720177e0b228408a9c3b924bc5f9ec76"
+
+query_server:
+  url: "https://query.news.prod.g.lovelace.ai"
+  audience: "queryserver:api"
+
+auth:
+  client_id: "RtYtbckk9Hj8TjeAkGYZkHZhuM4Msrf7"
+  audience: "queryserver:api"
+
+agents: {}
